@@ -5,12 +5,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mss.demo</groupId>
-	<artifactId>SpringBemoDemo</artifactId>
+	<artifactId>SpringBootDemo</artifactId>
 	<version>1</version>
 	<packaging>jar</packaging>
 
 	<name>SpringBootDemo</name>
-	<description>Demo project using starter, auto config, rest</description>
+	<description>Demo project using starter, auto config, DATA JPA, REST</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
