@@ -36,7 +36,9 @@ public class SpringRootConfig {
 		props.put("hibernate.hbm2ddl.auto", "create");
 		props.put("hibernate.use_sql_comments", "true");
 		props.put("hibernate.transaction.factory_class", "org.hibernate.transaction.JDBCTransactionFactory");
-		props.put("hibernate.dialect", "org.hibernate.dialect.Oracle10gDialect");
+		props.put("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
+		// props.put("hibernate.dialect", "org.hibernate.dialect.Oracle10gDialect");
+		
 		
 		lsfb.setHibernateProperties(props);
 		 // lsfb.setMappingResources(new String[] { "Withdraw_decl.hbm.xml", "Deposit_decl.hbm.xml" });
